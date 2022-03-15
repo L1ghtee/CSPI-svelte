@@ -2,6 +2,8 @@
 	import Header from '$lib/header.svelte';
 	import Footer from '$lib/footer.svelte';
     import ContactUs from '$lib/contact-us.svelte';
+
+	 
 </script>
 <title>ЦСПІ Новини</title>
 <!--layout-->
