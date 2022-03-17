@@ -1,17 +1,19 @@
 <script>
 	import Header from '$lib/header.svelte';
 	import Footer from '$lib/footer.svelte';
-    import ContactUs from '$lib/contact-us.svelte';
-
-	 
+	import ContactUs from '$lib/contact-us.svelte';
 </script>
+
 <title>ЦСПІ Новини</title>
 <!--layout-->
 
-<Header></Header>
+<Header />
 <section class="text-gray-600 body-font">
 	<div class="container px-5 py-24 mx-auto">
-		<h2 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4" style="margin-bottom: 40px;">
+		<h2
+			class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4"
+			style="margin-bottom: 40px;"
+		>
 			Останні новини парафії
 		</h2>
 		<div class="flex flex-wrap -m-4">
@@ -32,7 +34,7 @@
 							waistcoat.
 						</p>
 						<div class="flex items-center flex-wrap ">
-							<a  href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+							<a href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
 								>Learn More
 								<svg
 									class="w-4 h-4 ml-2"
@@ -216,7 +218,7 @@
 					</div>
 				</div>
 			</div>
-            <div class="p-4 md:w-1/3">
+			<div class="p-4 md:w-1/3">
 				<div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 					<img
 						class="lg:h-48 md:h-36 w-full object-cover object-center"
@@ -233,7 +235,7 @@
 							waistcoat.
 						</p>
 						<div class="flex items-center flex-wrap ">
-							<a  href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+							<a href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
 								>Learn More
 								<svg
 									class="w-4 h-4 ml-2"
@@ -416,8 +418,8 @@
 						</div>
 					</div>
 				</div>
-			</div>  
-            <div class="p-4 md:w-1/3">
+			</div>
+			<div class="p-4 md:w-1/3">
 				<div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 					<img
 						class="lg:h-48 md:h-36 w-full object-cover object-center"
@@ -434,7 +436,7 @@
 							waistcoat.
 						</p>
 						<div class="flex items-center flex-wrap ">
-							<a  href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+							<a href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
 								>Learn More
 								<svg
 									class="w-4 h-4 ml-2"
@@ -618,7 +620,7 @@
 					</div>
 				</div>
 			</div>
-            <div class="p-4 md:w-1/3">
+			<div class="p-4 md:w-1/3">
 				<div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
 					<img
 						class="lg:h-48 md:h-36 w-full object-cover object-center"
@@ -635,7 +637,7 @@
 							waistcoat.
 						</p>
 						<div class="flex items-center flex-wrap ">
-							<a  href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+							<a href="# " class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
 								>Learn More
 								<svg
 									class="w-4 h-4 ml-2"
@@ -819,11 +821,10 @@
 					</div>
 				</div>
 			</div>
-	
 		</div>
 	</div>
 </section>
-<ContactUs></ContactUs>
-<Footer></Footer>
+<ContactUs />
+<Footer />
 
 <style></style>
