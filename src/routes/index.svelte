@@ -24,7 +24,7 @@
 			<img
 				class="object-cover object-center rounded"
 				alt="hero"
-				src="https://scontent.flwo6-1.fna.fbcdn.net/v/t1.6435-9/37929633_268680953862241_6199773751198875648_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=h-Ikhc6FkK4AX_KpPrn&_nc_ht=scontent.flwo6-1.fna&oh=00_AT-ZjLl2tU8P11B6d6KXfGXUYVek35QUSbmNmviryrx2Gw&oe=623A4A9E"
+				src="#"
 			/>
 		</div>
 	</div>
