@@ -13,9 +13,13 @@ npm init svelte@next
 # create a new project in my-app
 npm init svelte@next new-svelte-app
 ```
+
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init tailwind.config.cjs -p
 mv postcss.config.js postcss.config.cjs
+```
+
 > Note: the `@next` is temporary
 
 
