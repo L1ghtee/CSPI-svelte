@@ -11,10 +11,14 @@ If you're seeing this, you've probably already done this step. Congrats!
 npm init svelte@next
 
 # create a new project in my-app
-npm init svelte@next my-app
+npm init svelte@next new-svelte-app
 ```
-
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init tailwind.config.cjs -p
+mv postcss.config.js postcss.config.cjs
 > Note: the `@next` is temporary
+
+
 
 ## Developing
 
